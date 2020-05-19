@@ -19,8 +19,9 @@ class School
   end
   
   def grade(grade)
-    grade = @roster.values
-    return grade
+    if (grade == @roster.include?(keys))
+      return @roster[grade].values
+    end
   end
   
 end
