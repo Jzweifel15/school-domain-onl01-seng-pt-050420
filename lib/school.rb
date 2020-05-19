@@ -19,8 +19,15 @@ class School
   end
   
   def grade(grade)
-    grade.each do ||
+    
+    array = []
+    
+    @roster.each do |key, value|
+      if (grade == @roster.include?(key))
+        array.push(key)
+      end
     end
+    return array
   end
   
 end
