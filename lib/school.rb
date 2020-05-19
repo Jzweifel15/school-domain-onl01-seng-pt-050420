@@ -30,6 +30,12 @@ class School
   
   def sort
     
+    hash = {}
+    @roster.each do |key, value|
+      
+    end
+    
+    
   end
   
 end
