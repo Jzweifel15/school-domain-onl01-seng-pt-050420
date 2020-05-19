@@ -21,7 +21,7 @@ class School
   def grade(grade)
     
     @roster.detect do |key, value|
-      
+      if (key == )
     end
     
   end
