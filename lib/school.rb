@@ -19,7 +19,8 @@ class School
   end
   
   def grade(grade)
-    
+    grade = @roster.keys
+    return grade
   end
   
 end
