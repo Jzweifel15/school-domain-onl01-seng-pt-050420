@@ -19,7 +19,8 @@ class School
   end
   
   def grade(grade)
-    
+    grade.each do ||
+    end
   end
   
 end
