@@ -32,9 +32,10 @@ class School
     
     hash = {}
     @roster.each do |key, value|
-      
+      hash[key] = value.sort
     end
     
+    return hash
     
   end
   
